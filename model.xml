@@ -1,16 +1,15 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<feature-model xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.tdg-seville.info/benavides/featuremodelling/feature-model.xsd">
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><feature-model xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.tdg-seville.info/benavides/featuremodelling/feature-model.xsd">
 	<feature name="Base">
 		<binaryRelation name="R-3">
-			<cardinality max="1" min="0" />
+			<cardinality max="1" min="0"/>
 			<solitaryFeature name="Feature1">
 				<setRelation name="R-10">
-					<cardinality max="3" min="1" />
-					<groupedFeature name="Feature2" />
-					<groupedFeature name="Feature3" />
-					<groupedFeature name="Feature4" />
+					<cardinality max="3" min="1"/>
+					<groupedFeature name="Feature2"/>
+					<groupedFeature name="Feature3"/>
+					<groupedFeature name="Feature4"/>
 				</setRelation>
 			</solitaryFeature>
 		</binaryRelation>
-	</feature>
+	<binaryRelation name="R-Base"><cardinality max="1" min="1"/><solitaryFeature name="Feature5"/></binaryRelation></feature>
 </feature-model>
