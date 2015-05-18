@@ -11,5 +11,5 @@
 				</setRelation>
 			</solitaryFeature>
 		</binaryRelation>
-	<binaryRelation name="R-Base"><cardinality max="1" min="1"/><solitaryFeature name="Feature5"><binaryRelation name="R-Feature5"><cardinality max="1" min="1"/><solitaryFeature name="Feature6"/></binaryRelation><binaryRelation name="R-Feature5"><cardinality max="1" min="0"/><solitaryFeature name="Feature7"/></binaryRelation></solitaryFeature></binaryRelation><binaryRelation name="R-Base"><cardinality max="1" min="0"/><solitaryFeature name="Feature8"/></binaryRelation></feature>
+	<binaryRelation name="R-Base"><cardinality max="1" min="1"/><solitaryFeature name="Feature5"><binaryRelation name="R-Feature5"><cardinality max="1" min="1"/><solitaryFeature name="Feature6"/></binaryRelation><binaryRelation name="R-Feature5"><cardinality max="1" min="0"/><solitaryFeature name="Feature7"/></binaryRelation></solitaryFeature></binaryRelation><binaryRelation name="R-Base"><cardinality max="1" min="0"/><solitaryFeature name="Feature8"><binaryRelation name="R-Feature8"><cardinality max="1" min="0"/><solitaryFeature name="Feature9"/></binaryRelation></solitaryFeature></binaryRelation></feature>
 </feature-model>
